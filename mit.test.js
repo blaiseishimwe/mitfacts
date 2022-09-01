@@ -31,3 +31,9 @@ describe("MIT", () => {
     expect(mit.student).toBe("Blaise Ishimwe");
   });
 });
+
+describe("MIT2", () => {
+  test("Object properties present", () => {
+    expect(mit).toHaveProperty("student");
+  });
+});
